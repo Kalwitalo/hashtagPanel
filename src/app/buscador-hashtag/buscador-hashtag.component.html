@@ -1,12 +1,12 @@
 <div class="mx-auto">
-  <form (ngSubmit)="search(tags.value)" class="form-inline justify-content-center">
-    <div class="form-group mx-sm-3 mb-2">
-      <label for="inputhastags" class="sr-only">Hashtags</label>
-      <input #tags class="form-control form-control-lg search" type="text" id="inputhastags"
-             placeholder="Add here hashtags separated by space">
-    </div>
-    <button class="btn btn-primary btn-lg mb-2">Search</button>
-  </form>
+  <!--<form (ngSubmit)="search(tags.value)" class="form-inline justify-content-center">-->
+    <!--<div class="form-group mx-sm-3 mb-2">-->
+      <!--<label for="inputhastags" class="sr-only">Hashtags</label>-->
+      <!--<input #tags class="form-control form-control-lg search" type="text" id="inputhastags"-->
+             <!--placeholder="Add here hashtags separated by space">-->
+    <!--</div>-->
+    <!--<button class="btn btn-primary btn-lg mb-2">Search</button>-->
+  <!--</form>-->
 
   <div class="row mt-12">
     <div *ngFor='let postGroup of groupedPosts;' class="card-group">
